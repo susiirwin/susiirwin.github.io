@@ -1,5 +1,5 @@
 title {
-  text-align:right;
+  text-align:float;
 }
 
 body {
@@ -10,10 +10,12 @@ body {
 h1 {
   background-color: DarkCyan;
   text: white;
+  text-align: right;
+  text-transform: lowercase;
 }
 
 h2 {
-  background-color: #ee3e90;
+
   text: white;
 }
 
@@ -23,13 +25,16 @@ h3 {
 
 p {
   background-color: white;
+  text-align: justify;
 }
 
-#page {
-  max-width: 940px;
-  min-width: 720px;
-  margin: 10px auto 10px auto;
-  padding: 20px;
+/*#page-wrap {
+  width: 800px;
+  margin: 0 auto;
+}*/
+
+#site_title {
+  text-align: center;
 }
 
 #footer {
