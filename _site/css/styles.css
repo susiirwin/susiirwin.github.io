@@ -1,6 +1,4 @@
-title {
-  text-align:float;
-}
+
 
 body {
   width: 750px;
@@ -28,10 +26,10 @@ p {
   text-align: justify;
 }
 
-/*#page-wrap {
+#page-wrap {
   width: 800px;
   margin: 0 auto;
-}*/
+}
 
 #site_title {
   text-align: center;
